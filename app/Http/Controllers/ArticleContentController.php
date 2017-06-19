@@ -16,8 +16,6 @@ class ArticleContentController extends Controller
     {
         $ars = DB::table('article')->orderBy("created_at","desc")->simplePaginate(7);
         $type = DB::table('article')->select(DB::raw('count(*) as counts, type'))->groupBy('type')->get();
-
-        echo var_dump($ars[0]->articletitle);
         return view("jjp",["pas"=>$ars,"type"=>$type]);
     }
 }
