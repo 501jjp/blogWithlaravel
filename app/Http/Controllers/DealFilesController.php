@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 use Illuminate\Pagination\Paginator;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\Exception\UnsatisfiedDependencyException;
-
+use Moontoast\Math\BigNumber;
 class DealFilesController extends Controller
 {
     public function __construct()
@@ -28,7 +28,7 @@ class DealFilesController extends Controller
         $type = $request->input('type');
         $uuid = Uuid::uuid1();
         var_dump($uuid);
-        DB::table("article")->insert(['created_at'=>date('Y-m-d H:i:s',time()),'updated_at'=>date('Y-m-d H:i:s',time()),'articletitle'=>$title,'articlecontent'=>$article,'type'=>$type,'symble'=>$uuid->toString()]);
+        DB::table("article")->insert(['created_at'=>date('Y-m-d H:i:s',time()),'updated_at'=>date('Y-m-d H:i:s',time()),'articletitle'=>$title,'articlecontent'=>$article,'type'=>$type,'symble'=>$uuid]);
         return redirect()->route('adminC');
     }
 }
