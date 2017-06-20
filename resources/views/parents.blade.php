@@ -9,6 +9,15 @@
 <head>
     <meta charset="utf-8">
     <title>Laravel</title>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?49af6d7d56e6e6180e3d48cd6fdbbf56";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body>
 <header>
