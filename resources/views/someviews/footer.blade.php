@@ -4,8 +4,12 @@
         <div class="dividingLine"></div>
         <div class="footer-content">
             <span>湘ICP备16020385号</span>
-            <span>github</span>
+            <div class="theendlink">
+                <div><a href="https://github.com/501jjp/">github</a></div>|
+                <div><a href="https://shawn-ji.github.io/">纪寿安的博客</a></div>
+            </div>
         </div>
+
         <div ></div>
     </div>
     <div class="order-right"></div>
@@ -46,7 +50,20 @@
         width: 100%;
         height: 72%;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .theendlink{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .theendlink div{
+        padding: 5px;
     }
 </style>
