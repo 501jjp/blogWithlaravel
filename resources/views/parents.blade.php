@@ -2,7 +2,7 @@
 <html lang="{{ config('app.locale') }}">
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link rel="stylesheet" href="//./css/mycss/blog.css" type="text/css">
+<link rel="stylesheet" href="css/mycss/blog.css" type="text/css">
 @section('href')
 @show
 <script type="text/javascript"  src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
