@@ -13,7 +13,7 @@
     <meta name="description" content="Everything about 501jjp" />
     <meta name="keywords" content="jjp,501jjp,季俊鹏,季俊鹏的博客,501jjp的博客" />
     <meta charset="utf-8">
-    <title>Laravel</title>
+    <title>501jjp</title>
     <script>
         var _hmt = _hmt || [];
         (function() {
