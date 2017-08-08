@@ -7,6 +7,7 @@
 @show
 <script type="text/javascript"  src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
 <head>
+    <link href="https://i.loli.net/2017/08/08/59898040c1049.png" rel="shortcut icon">
     <meta name="author" content="501jjp" />
     <meta name="renderer" content="webkit">
     <meta name="description" content="Everything about 501jjp" />
