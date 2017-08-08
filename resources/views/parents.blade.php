@@ -10,7 +10,7 @@
     <meta name="author" content="501jjp" />
     <meta name="renderer" content="webkit">
     <meta name="description" content="Everything about 501jjp" />
-    <meta name="keywords" content="501jjp,季俊鹏,季俊鹏的博客,501jjp的博客" />
+    <meta name="keywords" content="jjp,501jjp,季俊鹏,季俊鹏的博客,501jjp的博客" />
     <meta charset="utf-8">
     <title>Laravel</title>
     <script>
